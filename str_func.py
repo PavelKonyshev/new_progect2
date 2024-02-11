@@ -4,4 +4,9 @@
 def str_func():
     a = input()
     return(print(a.upper()))
-print(str_func())
+"""
+Функция принимает на вход строку и делает заглавными первые буквы каждого слова в строке.
+"""
+def str_titl():
+    a = input()
+    return(print(a.title()))
